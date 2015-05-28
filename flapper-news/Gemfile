@@ -21,6 +21,8 @@ gem 'angular-rails-templates'
 
 gem 'sprockets', '2.12.3'
 
+gem 'responders'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
