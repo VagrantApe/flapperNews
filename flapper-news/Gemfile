@@ -23,6 +23,8 @@ gem 'sprockets', '2.12.3'
 
 gem 'responders'
 
+gem 'devise', '~> 3.4.0'
+
 gem 'angular_rails_csrf'
 
 # Use Unicorn as the app server
