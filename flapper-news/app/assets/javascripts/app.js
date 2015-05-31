@@ -26,7 +26,7 @@ angular.module('flapperNews', ['ui.router', 'templates', 'Devise'])
                 })
                 .state('register',{
                     url: '/register',
-                    templateUrl: '_register.html',
+                    templateUrl: 'auth/_register.html',
                     controller: 'AuthCtrl',
                     onEnter: ['$state', 'Auth', function($state, Auth){
                         Auth.currentUser().then(function(){

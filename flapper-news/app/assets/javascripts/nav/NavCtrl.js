@@ -10,11 +10,14 @@ angular.module('flapperNews')
             });
             $scope.$on('devise:new-registration', function(e,user){
                 $scope.user=user;
+                console.log(e);
             });
             $scope.$on('devise:login', function(e,user){
                 $scope.user=user;
+                console.log(e);
             });
-            $scope.$on('devide"logout', function(e,user){
+            $scope.$on('devise:logout', function(e,user){
                 $scope.user={};
+                console.log(e);
             });
 }]);
